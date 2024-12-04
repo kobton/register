@@ -1,0 +1,6 @@
+services:
+  register:
+    build: .
+    container_name: register
+    ports:
+      - "8080:8080"
