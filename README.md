@@ -40,7 +40,7 @@ docker compose kill -s SIGINT
 
 Add person:
 
-```json
+```
 curl --request POST \
   --url http://localhost:8080/api/person \
   --header 'Content-Type: application/json' \
@@ -53,14 +53,14 @@ curl --request POST \
 
 Delete person by email:
 
-```json
+```
 curl --request DELETE \
   --url 'http://localhost:8080/api/person?email=jakob.test@gmail.com'
 ```
 
 Get all persons:
 
-```json
+```
 curl --request GET \
   --url http://localhost:8080/api/person
 ```
